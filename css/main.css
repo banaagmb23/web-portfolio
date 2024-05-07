@@ -2543,6 +2543,7 @@ input::-moz-focus-inner {
 .services-list .item-service__content {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 3.6rem;
+  margin-top: 21rem;
 }
 
 .services-list .item-service__content::before {
@@ -3486,6 +3487,23 @@ footer a:visited {
   position: absolute;
   left: calc(30px + 15px);
   top: -165px;
+}
+
+.icons-skills {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+
+.icons-skills img {
+  transform: scale(0.5, 0.5);
+  height: auto; 
+  width: auto; 
+  max-width: 200px; 
+  max-height: 100px;
 }
 
 /* ------------------------------------------------------------------- 
